@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vehicle</title>
+</head>
+<body>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+
+    <h1>Enter Consumer Vehicle Attributes</h1>
+    <div class="form">
+        <form action="/process" method="post">
+            <label for="manufacturing_year">Manufacturing Year:</label>
+            <input type="text" name="manufacturing_year" id="manufacturing_year">
+            <br>
+            <label for="model">Model:</label>
+            <input type="text" name="model" id="model">
+            <br>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+
+</body>
+</html>

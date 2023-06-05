@@ -1,0 +1,27 @@
+<link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css') }}">
+<title>
+    Vehicle manifacturer
+</title>
+<div class="form">
+    <h1 class="head">Vehicle Manufacturer Interface</h1>
+    <form method="POST" action="/">
+        <label for="pkgu">Data to encrypt:</label>
+        <input type="text" name="pkgu" id="pkgu">
+        <br>
+        <label for="CID">CID:</label>
+        <input type="text" name="CID" id="CID">
+        <br>
+        <label for="SID">SID:</label>
+        <input type="text" name="SID" id="SID">
+        <br>
+        <label for="Manufacturing_year">Manufacturing Year:</label>
+        <input type="text" name="Manufacturing_year" id="Manufacturing_year">
+        <br>
+        <label for="model">Model:</label>
+        <input type="text" name="model" id="model">
+        <br>
+        <input type="submit" value="Submit" class="sub">
+    </form>
+
+</div>
+
